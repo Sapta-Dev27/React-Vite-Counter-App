@@ -1,0 +1,44 @@
+button { 
+  padding: 10px 10px;
+  margin: 10px 10px;
+  background-color: rgb(175, 244, 221);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 2px solid aquamarine;
+}
+.container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  
+}
+.container h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: orangered;
+}
+
+.container h2 { 
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: purple;
+}
+
+
+.container h3 { 
+  font-size: 2rem;
+  font-weight: 600;
+  color: cornflowerblue;
+}
+
+.container p { 
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: blue;
+}
